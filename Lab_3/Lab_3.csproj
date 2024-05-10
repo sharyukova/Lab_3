@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\City.cs" />
-    <Compile Include="Classes\University.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,8 +81,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\City.txt" />
-    <Content Include="bin\Debug\Universities.txt" />
     <Content Include="Files\City.txt" />
     <Content Include="Files\Universities.txt" />
     <Content Include="Images\1 КФУ.jpg" />
@@ -92,6 +89,9 @@
     <Content Include="Images\4 ИТМО.jpg" />
     <Content Include="Images\5 МФТИ.jpg" />
     <Content Include="Images\6 КАИ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
